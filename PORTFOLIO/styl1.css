@@ -1,0 +1,36 @@
+ body {
+        /* Specify the background image URL */
+        background: url('bg2.avif');
+        
+      
+        /* Set background size and properties */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      
+        /* Set a fallback background color in case the image doesn't load */
+        /* background-color: #f0f0f0; */
+      
+        /* Adjust other styles as needed */
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        color: #333; /* Text color */
+      }
+      
+     p{
+        padding-top: 10px;
+        color: #0f0f0f;
+     } 
+     .display-1{
+       text-align: center;
+       color: black;
+        }
+        .summary{
+            text-align: center;
+            opacity: 0.5;
+            width: 500px;
+            margin-left: 400px;
+        }
+
+  

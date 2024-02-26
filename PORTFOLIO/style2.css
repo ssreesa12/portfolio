@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('aboutme bg3.jpg');
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    /* background-color: #4285f4; */
+    color: #0c0c0c;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+  }
+
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 10 10px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+
+  h1, h2 {
+    color: #090a0a;
+  }
+
+  img {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin-top: 20px;
+    /* margin-left: 250px; */
+    border: solid;
+    box-shadow: 0 0 20px #77db6a; /* Initial shadow color */
+    animation: glow 2s infinite alternate;
+  }
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 20px #69e778; /* Initial shadow color */
+    }
+    to {
+      box-shadow: 0 0 40px #23c454, 0 0 80px #66c2ff, 0 0 120px #66c2ff; /* Glowing shadow colors */
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+  .imagep{
+    display: flex;
+    margin-left: 200px;
+   
+    width: 500vm;
+    
+  }
+  #image{
+    border: solid;
+  }
+  #imageContainer {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  #summary{
+    box-shadow: 0 0 20px #66c2ff; /* Initial shadow color */
+    transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
+  }
+  #imageContainer:hover{
+    /* border: solid black;
+    box-shadow: 0 0 0 3px lightblue; */
+    transform: translateY(-20px);
+  }
+  #education{
+    box-shadow: 0 0 20px #13914c; /* Initial shadow color */
+    transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
+  }
+  #activities{
+    box-shadow: 0 0 20px #e395ca; /* Initial shadow color */
+    transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
+  }
+  
